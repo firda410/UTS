@@ -1,0 +1,163 @@
+ 
+a{
+    text-decoration: none;
+}
+body {
+	background: rgba(250, 177, 160,1.0);
+}
+label{
+    font-family: "Relaway",sans-serif;
+    font-size: 10pt;	
+}
+#forgot-paas{
+	color: rgba(250, 177, 160,1.0);
+	font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+#card{
+	background: rgba(250, 177, 160,1.0);
+	border-radius:8px;
+	border-radius:8px;
+	height: 410px;
+	margin: 6rem auto 8.1rem auto;
+	width: 329px;
+}
+#card-content{
+	padding: 12px 44px;
+}
+#card-title{
+	font-family: "Relaway",sans-serif;
+	letter-spacing: 4px;
+	padding-bottom: 23px;
+	padding-top: 13px;
+	text-align: center;
+}
+#singnup{
+	color: rgba(250, 177, 160,1.0);
+	font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn{
+	background: rgba(250, 177, 160,1.0);
+	border-radius:21px;
+	border: none;
+	box-shadow: rgba(250, 177, 160,1.0);
+	cursor: pointer;
+	color: rgba(250, 177, 160,1.0);
+	font-family: "Relaway SemiBold",sans-serif;
+	height: 42.3px;
+	margin: 0 auto;
+	margin-top: 50px;
+	transition: 0.25s;
+	width: 153px;
+}
+#submit-btn:hover{
+	box-shadow: 0px 1px 18px #ffffff
+}
+.form{
+	align-items: left;
+	display: flex;
+	flex-direction: column;
+}
+.form-border{
+	height: 1px;
+	width: 100%;
+	background: -webkit-linear-gradient(right,#9b59b6,#ecf0f1);
+}
+.form-content{
+	blackground: #fbfbfb;
+	bolder: none;
+	outline: none;
+	padding-top: 14px; 
+}
+.underline-title{
+	background: -webkit-linear-gradient(right,#9b59b6,#ecf0f1);
+	height: 2px;
+	margin: 1.1rem auto 0 auto;
+	width: 89px;
+} 
+a{
+    text-decoration: none;
+}
+body {
+	background: rgba(255, 118, 117,1.0);
+}
+label{
+    font-family: "Relaway",sans-serif;
+    font-size: 11pt;	
+}
+#forgot-pass{
+	color:rgba(250, 177, 160,1.0);
+	font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+#card{
+	background: rgba(250, 177, 160,1.0);
+	border-radius:8px;
+	border-radius:8px;
+	height: 410px;
+	margin: 6rem auto 8.1rem auto;
+	width: 329px;
+}
+#card-content{
+	padding: 12px 44px;
+}
+#card-title{
+	font-family: "Relaway",sans-serif;
+	letter-spacing: 4px;
+	padding-bottom: 23px;
+	padding-top: 13px;
+	text-align: center;
+}
+#singnup{
+	color: #ffffff;
+	font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn{
+	background: rgba(214, 48, 49,1.0);
+	border-radius:21px;
+	border: none;
+	box-shadow: 0px 1px 8px #ffffff;
+	cursor: pointer;
+	color: navy;
+	font-family: "Relaway SemiBold",sans-serif;
+	height: 42.3px;
+	margin: 0 auto;
+	margin-top: 50px;
+	transition: 0.25s;
+	width: 153px;
+}
+#submit-btn:hover{
+	box-shadow: 0px 1px 18px #ffffff
+}
+.form{
+	align-items: left;
+	display: flex;
+	flex-direction: column;
+}
+.form-border{
+	height: 1px;
+	width: 100%;
+	background: -webkit-linear-gradient(right,#9b59b6,#ecf0f1);
+}
+.form-content{
+	blackground: #fbfbfb;
+	bolder: none;
+	outline: none;
+	padding-top: 14px; 
+}
+.underline-title{
+	background: rgba(214, 48, 49,1.0);
+	height: 2px;
+	margin: 1.1rem auto 0 auto;
+	width: 89px;
+}

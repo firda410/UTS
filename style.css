@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: tahoma;
+    font-size: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: rgba(32, 32, 32, 0.8);
+    transition: all 0.5s ease;
+}
+h5 {
+   line-height: 30px;
+}
+
+.sidebar .top {
+    font-size: 20px;
+    color: rgba(32, 32, 32, 0.8);
+    text-align: center;
+    line-height: 70px;
+    background-color:rgba(238, 199, 219, 0.8) ;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(154, 142, 148, 0.8);
+    border-bottom: 1px solid rgba(227, 159, 194, 0.8);
+    transition: all 0.5s ease;
+}
+
+ul li:hover a {
+    padding-left: 100px;
+    background: #ef869a;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+section {
+    background: rgba(244, 232, 238, 0.8);
+    background-position: right;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+section h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    color: #806763;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+section form {
+    text-align: center;
+    padding-top: 110px;
+    font-size: 25px;
+    color: #806763;
+}
+.formulir {
+    text-align: center;
+    padding-top: -1000px;
+    font-size: 10px;
+    color: #806763;
+}
+ 
+a{
+    text-decoration: none;
+}
+body {
+    background: rgba(250, 177, 160,1.0);
+}
+label{
+    font-family: "Relaway",sans-serif;
+    font-size: 10pt;    
+}
+#forgot-paas{
+    color: rgba(250, 177, 160,1.0);
+    font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+#card{
+    background: rgba(250, 177, 160,1.0);
+    border-radius:8px;
+    border-radius:8px;
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+#card-content{
+    padding: 12px 44px;
+}
+#card-title{
+    font-family: "Relaway",sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+#singnup{
+    color: rgba(250, 177, 160,1.0);
+    font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn{
+    background: rgba(250, 177, 160,1.0);
+    border-radius:21px;
+    border: none;
+    box-shadow: rgba(250, 177, 160,1.0);
+    cursor: pointer;
+    color: rgba(250, 177, 160,1.0);
+    font-family: "Relaway SemiBold",sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+}
+#submit-btn:hover{
+    box-shadow: 0px 1px 18px #ffffff
+}
+.form{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border{
+    height: 1px;
+    width: 100%;
+    background: -webkit-linear-gradient(right,#9b59b6,#ecf0f1);
+}
+.form-content{
+    blackground: #fbfbfb;
+    bolder: none;
+    outline: none;
+    padding-top: 14px; 
+}
+.underline-title{
+    background: -webkit-linear-gradient(right,#9b59b6,#ecf0f1);
+    height: 2px;
+    margin: 1.1rem auto 0 auto;
+    width: 89px;
+} 
+a{
+    text-decoration: none;
+}
+body {
+    background: rgba(255, 118, 117,1.0);
+}
+label{
+    font-family: "Relaway",sans-serif;
+    font-size: 11pt;    
+}
+#forgot-pass{
+    color:rgba(250, 177, 160,1.0);
+    font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+#card{
+    background: rgba(250, 177, 160,1.0);
+    border-radius:8px;
+    border-radius:8px;
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+#card-content{
+    padding: 12px 44px;
+}
+#card-title{
+    font-family: "Relaway",sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+#singnup{
+    color: #ffffff;
+    font-family: "Relaway",sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn{
+    background: rgba(214, 48, 49,1.0);
+    border-radius:21px;
+    border: none;
+    box-shadow: 0px 1px 8px #ffffff;
+    cursor: pointer;
+    color: navy;
+    font-family: "Relaway SemiBold",sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+}
+#submit-btn:hover{
+    box-shadow: 0px 1px 18px #ffffff
+}
+.form{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border{
+    height: 1px;
+    width: 100%;
+    background: -webkit-linear-gradient(right,#9b59b6,#ecf0f1);
+}
+.form-content{
+    blackground: #fbfbfb;
+    bolder: none;
+    outline: none;
+    padding-top: 14px; 
+}
+.underline-title{
+    background: rgba(214, 48, 49,1.0);
+    height: 2px;
+    margin: 1.1rem auto 0 auto;
+    width: 89px;
+}
